@@ -17,7 +17,7 @@ spec:
     spec:
       containers:
       - name: flask-app
-        image: gcr.io/YOUR_PROJECT_ID/flask-app:latest
+        image: gcr.io/agenticai-463215/flask-app:latest
         ports:
         - containerPort: 5000
         livenessProbe:
